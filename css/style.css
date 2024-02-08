@@ -26,7 +26,7 @@ img{
 
 button{
     background-color: #0160FF;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border: none;
     color: white;
 }
@@ -88,6 +88,7 @@ button{
 
 .hero{
     background-color:#B3D0E7;
+    
 
 }
 
@@ -111,6 +112,10 @@ button{
     line-height: 21px;
 }
 
+.col1 span{
+    font-size: 13px;
+}
+
 .col1 > *{
     padding-top: 20px;
     
@@ -127,6 +132,7 @@ button{
 
 .col2 img{
     padding-top: 20px;
+    transform: translate(10px, 40px);
 }
 
 .subscriptions{
@@ -252,6 +258,39 @@ hr{
 .col6-right button{
     margin-top: 20px;
 }
+
+.row.partner{
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row.partner img{
+    max-width: 90%;
+}
+
+
+.col1-partner{
+    width: 65%;
+
+}
+
+.col2-partner{
+    width: 35%;
+}
+
+.col2-partner p{
+    margin-top:25px;
+}
+
+.btn-partner{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+}
+
+
 
 
 
