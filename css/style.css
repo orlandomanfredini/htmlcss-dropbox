@@ -34,7 +34,7 @@ button{
 /* FISSI */
 
 .container-sm{
-    max-width: 780px;
+    max-width: 650px;
     margin: 0 auto;
 
 }
@@ -126,4 +126,19 @@ button{
 
 .col2 img{
     padding-top: 20px;
+}
+
+.subscriptions{
+    padding-top: 80px;
+
+}
+
+.subscriptions h4{
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.radio{
+    display: inline-block;
+    margin-right: 30px;
 }
