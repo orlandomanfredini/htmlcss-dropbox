@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -17,7 +17,7 @@ menu{
 
 a{
     text-decoration: none;
-    color: black;
+    color: currentColor;
 }
 
 img{
@@ -25,7 +25,7 @@ img{
 }
 
 button{
-    background-color: rgb(57, 57, 205);
+    background-color: #0160FF;
     padding: 5px 10px;
     border: none;
     color: white;
@@ -34,13 +34,13 @@ button{
 /* FISSI */
 
 .container-sm{
-    max-width: 850px;
+    max-width: 780px;
     margin: 0 auto;
 
 }
 
 .container{
-    max-width: 1050px;
+    max-width: 800px;
     margin: 0 auto;
     
 }
@@ -70,7 +70,6 @@ button{
 
 .link-header{
     display: flex;
-    margin: 0;
     align-items: center;
 }
 
@@ -81,4 +80,50 @@ button{
 
 .link-header button a{
     color: white;
+}
+
+.logo img{
+    max-width: 90px;
+}
+
+.hero{
+    background-color:#B3D0E7;
+
+}
+
+.container h1{
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.col1{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.col1 p{
+    line-height: 21px;
+}
+
+.col1 > *{
+    padding-top: 20px;
+}
+
+.fa-solid{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.col2{
+    width: 60%;
+}
+
+.col2 img{
+    padding-top: 20px;
 }
