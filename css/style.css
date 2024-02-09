@@ -183,10 +183,10 @@ button{
     min-height: 630px;
     max-height: 900px;
     padding: 10px;
-    border: 1px solid rgb(186, 180, 180);
+    border: 1px solid rgb(204, 199, 199);
     display: flex;
     flex-direction: column;
-    font-size: 15px;
+    font-size: 12px;
     
 }
 
@@ -228,6 +228,11 @@ button{
 hr{
     width: 30px;
     margin-top: 20px;
+}
+
+.link-buy a{
+    text-decoration: underline;
+    color: blue;
 }
 
 .benefit li i{
@@ -305,6 +310,25 @@ hr{
     border: 1px solid gray;
     color: gray;
 }
+
+.buisness-title{
+    font-size: 22px;
+    padding-bottom: 40px;
+}
+
+.col-buisness{
+    width: calc(4 * 100% / 12);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.col-buisness h4, .col-buisness p{
+    padding-top: 15px;
+    line-height: 18px;
+}
+
+
 
 
 
