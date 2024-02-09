@@ -375,27 +375,24 @@ button{
 }
 
 .col-partner-large img{
-    max-width: 75%;
+    max-width: 65%;
     padding: 20px;
 }
 
 .col-partner-large hr{
     color: gray;
     width: 60px;
-    margin-top: 15px;
     margin-left: 20px;
     
 }
 
 .col-partner-large p{
-    margin-top: 15px;
     font-size: 13px;
     line-height: 18px;
     padding: 20px;
 }
 
 .col-partner-large span{
-    margin-top: 10px;
     font-size: 12px;
     padding: 20px;
 }
@@ -421,7 +418,7 @@ button{
 }
 
 .trial{
-    padding: 50px;
+    padding: 50px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -432,14 +429,13 @@ button{
 
 .col-trial h3{
     font-size: 22px;
-    line-height: 26px;
+    line-height: 32px;
     word-spacing: 4px;
     color:#641737 ;
 }
 
 .col-trial-btn{
     max-width: 30%;
-    
 }
 
 .col-trial-btn button{
@@ -447,11 +443,37 @@ button{
     border-color: rgb(210, 210, 210);
     color: black;
     font-size: 14px;
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 .col-trial-btn a{
     font-size: 12px;
+}
+
+.faq{
+    padding: 40px 0;
+    flex-direction: column;
+}
+
+.title-faq{
+    padding-top: 50px;
+    
+}
+
+
+.col-faq{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.col-faq i{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+.border-up{
+    border-top: 1px solid black;
 }
 
 
