@@ -46,7 +46,7 @@ button{
 }
 
 .container-lg{
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     
 }
@@ -75,6 +75,7 @@ button{
 
 .link-header li{
     padding: 0 8px;
+    font-size: 14px;
 
 }
 
@@ -108,17 +109,31 @@ button{
     
 }
 
-.col1 p{
-    line-height: 21px;
-}
 
 .col1 span{
     font-size: 13px;
 }
 
-.col1 > *{
-    padding-top: 20px;
-    
+
+.col1 p{
+    padding-top: 35px;
+    line-height: 21px;
+    font-size: 14px;
+
+}
+
+.col1 button{
+    margin-top: 20px;
+}
+
+.col1 span{
+    padding-top: 15px;
+}
+
+.col1 i{
+    font-size: 24px;
+    margin-top: auto;
+    padding: 0;
 }
 
 .fa-solid{
@@ -131,12 +146,12 @@ button{
 }
 
 .col2 img{
-    padding-top: 20px;
     transform: translate(10px, 40px);
 }
 
 .subscriptions{
     padding-top: 80px;
+    padding-bottom: 80px;
 
 }
 
