@@ -107,12 +107,12 @@ button{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
 }
 
 
 .col1 span{
     font-size: 13px;
+    padding-top: 15px;
 }
 
 
@@ -127,9 +127,6 @@ button{
     margin-top: 20px;
 }
 
-.col1 span{
-    padding-top: 15px;
-}
 
 .col1 i{
     font-size: 24px;
@@ -313,7 +310,7 @@ button{
 
 .buisness-title{
     font-size: 22px;
-    padding-bottom: 40px;
+    padding-bottom: 15px;
 }
 
 .col-buisness{
@@ -344,6 +341,7 @@ button{
     margin-top: 40px;
 }
 
+
 .col-partner{
     display: flex;
     flex-wrap: wrap;
@@ -353,7 +351,6 @@ button{
 .col-partner img{
     max-width: 50%;
     padding: 50px;
-    
 }
 
 .col-partner .design{
@@ -417,6 +414,44 @@ button{
 
 .col-partner .bicycle{
     background-color: rgb(236, 223, 41);
+}
+
+.free-trial{
+    background-color:#B3D0E7 ;
+}
+
+.trial{
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-trial{
+    max-width: 70%;
+}
+
+.col-trial h3{
+    font-size: 22px;
+    line-height: 26px;
+    word-spacing: 4px;
+    color:#641737 ;
+}
+
+.col-trial-btn{
+    max-width: 30%;
+    
+}
+
+.col-trial-btn button{
+    background-color: white;
+    border-color: rgb(210, 210, 210);
+    color: black;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.col-trial-btn a{
+    font-size: 12px;
 }
 
 
