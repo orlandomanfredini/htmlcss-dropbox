@@ -476,6 +476,59 @@ button{
     border-top: 1px solid black;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer{
+    flex-direction: column;
+}
+
+.col-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-footer hr{
+    border: 1px solid gray;
+    width: 70px;
+}
+
+
+.col5{
+    width: calc( 100% / 5);
+    padding: 10px 10px 30px 10px;
+}
+
+.col5 h5{
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.col5 li{
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.lenguage{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    
+}
+
+.lenguage i{
+    font-size: 12px;
+    padding: 0;
+}
+
+.lenguage select{
+    background: transparent;
+    border: none;
+    color: rgb(199, 194, 194);
+}
+
 
 
 
