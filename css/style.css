@@ -297,7 +297,7 @@ button:hover{
 
 .row.partner{
     align-items: center;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 
@@ -524,7 +524,7 @@ footer{
 }
 
 .partner-logo img{
-    padding: 45px;
+    padding: 55px;
     filter: invert(1);
 }
 
