@@ -225,6 +225,7 @@ button{
 .link-buy hr{
     width: 40px;
     margin-top: 20px;
+    border: 1px solid  rgba(190, 187, 187, 0.7);
 }
 
 .link-buy a{
@@ -369,33 +370,7 @@ button{
     background-color: rgb(194, 0, 0);
 }
 
-.col-partner-large{
-    flex-direction: column;
-    background-color:#F5F5F5 ;
-}
 
-.col-partner-large img{
-    max-width: 65%;
-    padding: 20px;
-}
-
-.col-partner-large hr{
-    color: gray;
-    width: 60px;
-    margin-left: 20px;
-    
-}
-
-.col-partner-large p{
-    font-size: 13px;
-    line-height: 18px;
-    padding: 20px;
-}
-
-.col-partner-large span{
-    font-size: 12px;
-    padding: 20px;
-}
 
 .col-partner .clear-channel{
     background-color: red;
@@ -492,8 +467,8 @@ footer{
 }
 
 .col-footer hr{
-    border: 1px solid gray;
-    width: 70px;
+    border: 1px solid rgba(190, 187, 187, 0.7);
+    width: 85px;
 }
 
 
@@ -530,6 +505,84 @@ footer{
 }
 
 
+
+/* Regole logo invert */
+.col-partner2{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.partner-logo{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.green{
+    background-color:#84C685;
+}
+
+.bordeaux{
+    background-color: #711F0F;
+}
+
+.blue{
+    background-color: #12A7D7;
+}
+
+.red-fire{
+   background-color: #C20000; 
+}
+
+.red{
+    background-color: red;
+}
+
+.cobalt{
+    background-color:#5BB7E2 ;
+}
+
+.darkblue{
+    background-color:#19237D;
+}
+
+.yellow{
+    background-color: #ECDE2A;
+}
+
+.partner-logo img{
+    padding: 45px;
+    filter: invert(1);
+}
+
+.col-partner-large{
+    flex-direction: column;
+    background-color:#F5F5F5 ;
+}
+
+.col-partner-large img{
+    max-width: 65%;
+    padding: 20px;
+}
+
+.col-partner-large hr{
+    color: gray;
+    width: 60px;
+    margin-left: 20px;
+    
+}
+
+.col-partner-large p{
+    font-size: 13px;
+    line-height: 18px;
+    padding: 20px;
+}
+
+.col-partner-large span{
+    font-size: 12px;
+    padding: 20px;
+}
 
 
 
