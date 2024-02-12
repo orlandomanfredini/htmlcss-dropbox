@@ -276,7 +276,7 @@ button:hover{
     margin-top: 15px;
 }
 
-.team{
+.col12{
     width: 100%;
     
 }
@@ -288,26 +288,26 @@ button:hover{
 .card-team{
     padding: 15px;
     display: flex;
-    flex-wrap: wrap;border: 1px solid rgb(186, 180, 180);;
+    flex-wrap: wrap;
+    border: 1px solid rgb(186, 180, 180);;
 }
 
-.col6-left{
-    width: 70%;
+
+
+.col2.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
-.col6-left >*{
-    margin-top: 25px;
-
-}
-
-.col6-right{
-    width: 30%;
+.right{
     display: flex;
     flex-direction: column;
 }
 
-.col6-right button{
-    margin-top: 20px;
+.right button{
+    margin: 0;
 }
 
 .row.partner{
