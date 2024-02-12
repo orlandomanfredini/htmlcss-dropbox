@@ -25,15 +25,19 @@ img{
 }
 
 button{
+    width: 100%;
     background-color: #0160FF;
     padding: 5px 15px;
     font-size: 13px;
     border: none;
     color: white;
+    transition: all 1s ease-in-out;
+    
 }
 
 button:hover{
     text-decoration: underline;
+    background-color: #12A7D7;
 }
 
 /* FISSI */
@@ -86,6 +90,7 @@ button:hover{
 
 .link-header button a{
     color: white;
+    
 }
 
 .link-header button a:hover{
@@ -144,6 +149,7 @@ button:hover{
 .col1 i{
     font-size: 24px;
     margin-top: auto;
+    margin-bottom: 5px;
     padding: 0;
 }
 
@@ -206,6 +212,14 @@ button:hover{
 
 .card .title-card h3{
     text-align: center;
+}
+
+.transition-border{
+    transition: border-color 0.2s ease-in-out;
+}
+
+.transition-border:hover{
+    border-color: #12A7D7;
 }
 
 
@@ -321,6 +335,7 @@ button:hover{
 }
 
 .btn-partner{
+    max-width: 150px;
     margin-top: 20px;
     background-color: transparent;
     border: 1px solid gray;
@@ -573,8 +588,79 @@ footer{
 }
 
 
+/* animazione */
+
+.bounce{
+    animation-name: bounce;
+    animation-duration: 1.2s;
+    animation-iteration-count: 2;
+
+}
+
+@keyframes bounce{
+    0%{
+        color: black;
+    }
+    50%{
+        font-size: 30px;
+        color: rgb(209, 201, 107);
+        transform: translateY(-15px);
+    }
+    100%{
+        font-size: 24px;
+        color: black;
+        transform: translateY(0);
+    }
+}
 
 
+.slide-img img{
+    animation-name: slide-img;
+    animation-duration: 1.2s;
+}
+
+
+@keyframes slide-img{
+    0%{
+        transform: translateX(200px);
+        opacity: 1;
+    }
+    25%{
+       opacity: 0.25;
+    }
+    50%{
+       opacity: 0.5;
+
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+        transform: translate(10px,40px);
+        
+    }
+}
+
+
+.largest button:hover{
+    animation-name: largest;
+    animation-duration: 0.7s;
+
+}
+
+@keyframes largest{
+    0%{
+    
+
+    }
+    50%{
+        width: 220px
+    }
+    100%{
+        width: 180px;
+    }
+}
 
 
 
