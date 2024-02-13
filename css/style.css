@@ -43,19 +43,19 @@ button:hover{
 /* FISSI */
 
 .container-sm{
-    max-width: 750px;
+    max-width: 1000px;
     margin: 0 auto;
 
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     
 }
 
 .container-lg{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     
 }
@@ -432,7 +432,7 @@ button:hover{
 
 .col-faq i{
     font-size: 15px;
-    transform: translate(130px, 0);
+    transform: translate(470px, 0);
 }
 
 
@@ -675,6 +675,52 @@ footer{
         width: 180px;
     }
 }
+
+
+/* aggiunta codice per logo invert */
+
+.clear-channel img{
+    width: 100%;
+}
+
+.overlay{
+    animation-name: change-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes change-bg{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.none-bg > img{
+    animation-name: none-bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes none-bg{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 
 
 
